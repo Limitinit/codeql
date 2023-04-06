@@ -1,5 +1,6 @@
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
+# TODO update this once package is ready
 _swift_prebuilt_version = "swift-5.7.3-RELEASE.142"
 _swift_sha_map = {
     "Linux-X64": "398d8de54c8775c939dff95ed5bb0e04a9308a1982b4c1900cd4a5d01223f63b",
