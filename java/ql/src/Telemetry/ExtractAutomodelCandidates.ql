@@ -20,5 +20,5 @@ where
   m.isPublic() and
   m.getAParameter() = p and
   m.getDoc().getJavadoc() = doc
-select p, "Candidate for automodeling. Context: method=$@, doc=$@", m, m.toString(), doc,
+select p, "Candidate for automodeling. Context: method=$@, doc=$@.", m, m.toString(), doc,
   "/** .. */"
